@@ -19,20 +19,21 @@ body{
 }
 
 #btn{
-    width: 200px;
+        width: 200px;
     height: 50px;
     position: relative;
     cursor: pointer;
     border: none;
-    background: #e2e2e2;
+    background: #0048ff;
     border-radius: 8px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 31%);
     transition: all 0.28s cubic-bezier(0.075, 0.82, 0.165, 1);
     overflow: hidden;
+    color: #fff;
 }
 
 #btn:hover{
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.145)
 }
 
 
@@ -50,6 +51,9 @@ body{
     left: 82%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+#call-img img{
+    color: white;
 }
 
 
@@ -76,6 +80,7 @@ body{
     top:50%;
     transform:translate(-50%,-50%);
     white-space:nowrap;
+    font-size: 18px;
 }
 
 
